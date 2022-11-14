@@ -16,6 +16,10 @@ import { FaInstagram, FaFacebookF, FaWhatsapp, FaMapMarkerAlt } from "react-icon
 import PartSeven from '../components/PartSeven';
 import PartOne from '../components/PartOne';
 import PartTwo from '../components/PartTwo';
+import PartThree from '../components/PartThree';
+import PartFour from '../components/PartFour';
+import PartFive from '../components/PartFive';
+import PartSix from '../components/PartSix';
 
 
 function FirstPage() {
@@ -24,6 +28,11 @@ function FirstPage() {
             <Header />
             <PartOne />
             <PartTwo />
+            <PartThree />
+            <PartFour />
+            <PartFive />
+            <PartSix />
+
 
 
             
