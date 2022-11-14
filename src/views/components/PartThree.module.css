@@ -1,0 +1,37 @@
+
+.firstContainer3 {
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-color: var(--violet);
+    background-position: center;
+    text-align: center;
+
+}
+
+.secondContainer3 {
+    background-image: linear-gradient(-25deg, var(--gray-200), white);
+    height: 100vh;
+    width: 95vw;
+    border-bottom: 1px solid var(--blue-600);
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.secondContainer3 h1 {
+    font-size: 2.5rem;
+    padding: auto;
+    padding-top: 10px;
+}
+
+.secondContainer3 video {
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    background-color: transparent;
+
+}

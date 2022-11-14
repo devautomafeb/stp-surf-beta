@@ -1,0 +1,7 @@
+
+.footer {
+    display: flex;
+    background-color: var(--gray-800);
+    height: 28vh;
+    width: 100vw;
+}
