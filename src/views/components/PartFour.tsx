@@ -2,7 +2,7 @@ import styles from './PartFour.module.css';
 
 import professor01 from '../../assets/images/professor01.jpg';
 import professor02 from '../../assets/images/professor02.jpg';
-import professor03 from '../../assets/images/professor03.jpg';
+import professor033 from '../../assets/images/professor033.jpg';
 import professor04 from '../../assets/images/professor04.jpg';
 
 import { FaInstagram} from "react-icons/fa";
@@ -25,7 +25,7 @@ function PartFour() {
 
                 </div>
                 <div className={styles.professorBlock}>
-                    <img src={professor03} />
+                    <img src={professor033} />
                     <h2><FaInstagram />   Lucas "Curió"</h2>
 
                 </div>

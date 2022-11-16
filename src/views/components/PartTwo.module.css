@@ -122,20 +122,14 @@
 
     .secondContainer2 #texto1p2 img{
         
-        width: 80%;
+        max-height: 250px;
         margin: 0;
-        padding: 10px;
+        border-radius: 0 60px 0 60px;
+        padding: 20px;
     }
     .secondContainer2 #texto2p2 img{
-        
-        width: 80%;
-        
+        max-height: 230px;
         margin: 0;
-        padding: 10px;
-    }
-
-    .secondContainer2 img {
-        height: 40vh;
         border-radius: 0 60px 0 60px;
         padding: 20px;
     }
