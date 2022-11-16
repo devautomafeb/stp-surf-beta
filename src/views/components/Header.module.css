@@ -54,8 +54,19 @@ li {
     font-size: 1.5rem;
 }
 
-li:hover{
-    font-size: 2rem;
+li:hover {
     cursor: pointer;
-    transition-duration: 500ms;
+}
+
+@media(max-width:768px) {
+    
+    .header {
+        background-color: white;
+        height: 14vh;
+    }
+    
+    img {
+        height: 14vh;
+        padding: 5px;
+    }
 }

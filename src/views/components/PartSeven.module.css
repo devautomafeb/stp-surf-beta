@@ -1,11 +1,11 @@
-.partSevenForm{
+.partSevenForm {
     height: 100vh;
     width: 100vw;
     background-size: cover;
     background-color: transparent;
     background-position: center;
     text-align: center;
-   
+
 }
 
 
@@ -37,7 +37,8 @@
     outline: none;
     border: none;
 }
-.partSevenForm from h1{
+
+.partSevenForm from h1 {
     margin: 0;
 }
 
@@ -55,8 +56,8 @@
     font-weight: 500;
 }
 
-.partSevenForm form img{
-    height: 20%;
+.partSevenForm form img {
+    height: 15%;
     margin: 0;
 }
 
@@ -71,8 +72,9 @@
     font-weight: 600;
     color: var(--gray-800);
 }
-.partSevenForm textarea{
-    
+
+.partSevenForm textarea {
+
     height: 120px;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.3);
@@ -101,6 +103,13 @@ button {
     cursor: pointer;
 }
 
-    .partSevenForm button:hover{
-        background-color: var(--blue-400);
+.partSevenForm button:hover {
+    background-color: var(--blue-400);
+}
+
+@media(max-width:768px) {
+    .partSevenForm form {
+        height: 100vh;
+        width: 90vw;
     }
+}

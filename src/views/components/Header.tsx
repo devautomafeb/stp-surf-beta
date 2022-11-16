@@ -23,7 +23,7 @@ function Header() {
 
                 <div className={styles.tools}>
                     <ul>
-                        <li>Agendar</li>
+                        <li>Login</li>
                         <MdSurfing size={'2rem'} color={'#1e4f61'}/>
                     </ul>
                 </div>

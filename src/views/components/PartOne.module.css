@@ -9,19 +9,40 @@
 
 .schedule {
     position: absolute;
-    font-size: 1.5rem;
-    background-color: var(--blue-400);
-    color: var(--gray-200);
-    width: 20vw;
-    bottom: 10%;
+    font-size: 1.0rem;
+    background-color: black;
+    color: white;
+    width: 200px;
+    bottom: 40%;
     right: 10%;
-    border-radius: 5px;
-    padding: 10px;
+    border-radius: 20px;
+    padding: 5px;
     box-sizing: content-box;
 }
 
+.schedule h2 {
+    color: white;
+    text-decoration: underline;
+}
+
 .firstContainer .schedule:hover {
-    background-color: var(--blue-200);
+    background-color: var(--blue-400);
     cursor: pointer;
     transition-duration: 500ms;
+}
+
+@media(max-width:768px) {
+
+    .firstContainer {
+        height: 100vh;
+        width: 100vw;
+        background-image: url("../../assets/images/imagem01.jpg");
+        background-size:cover;
+        background-position:center;
+        text-align: center;
+    }
+
+    .schedule {
+        display: none;
+    }
 }

@@ -24,6 +24,7 @@ function PartTwo() {
                     </h3>
                 </div>
                 <div id={styles.texto2p2}>
+                
                     <h3>
                         <b>Adicionamos a isso uma cobertura profissional de fotos e vídeos</b> para você acompanhar sua evolução
                         e postar à vontade.

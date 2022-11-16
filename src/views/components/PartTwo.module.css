@@ -29,8 +29,7 @@
 }
 
 .secondContainer2 #texto1p2 {
-    float:right;
-    display:flex;
+    display: flex;
     justify-content: center;
     text-align: justify;
     margin: 5%;
@@ -41,7 +40,6 @@
 }
 
 .secondContainer2 #texto2p2 {
-    float: left;
     display: flex;
     justify-content: center;
     text-align: justify;
@@ -54,7 +52,6 @@
 
 
 .secondContainer2 img {
-    float: left;
     height: 50vh;
     border-radius: 0 60px 0 60px;
     margin-bottom: 5%;
@@ -86,4 +83,82 @@
 .secondContainer2 b {
     font-weight: 900;
     color: var(--violet);
+}
+
+@media(max-width:1200px) {
+
+    #titles h2 {
+        margin: -30px;
+    }
+
+    .secondContainer2 h1 {
+        font-size: 3rem;
+    }
+
+    .secondContainer2 #texto1p2 {
+        justify-content: center;
+        text-align: justify;
+        margin: 5%;
+        margin-bottom: 0;
+        margin-top: 0;
+        align-items: center;
+        margin-top: 5%;
+        display: block;
+        box-sizing: content-box;
+    }
+
+    .secondContainer2 #texto2p2 {
+        justify-content: center;
+        text-align: justify;
+        margin: 5%;
+        margin-bottom: 0;
+        margin-top: 0;
+        align-items: center;
+        display: block;
+        box-sizing: content-box;
+    }
+
+    .secondContainer2 #texto1p2 img{
+        height: 40vh;
+        margin: 0;
+        padding: 10px;
+    }
+    .secondContainer2 #texto2p2 img{
+        height: 34vh;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .secondContainer2 img {
+        height: 40vh;
+        border-radius: 0 60px 0 60px;
+        padding: 20px;
+    }
+
+    .secondContainer2 h1 {
+        color: var(--violet);
+    }
+
+    .secondContainer2 h2 {
+        color: var(--violet);
+        margin: 0;
+        font-family: 'SurferBay';
+        font-weight: 500;
+        font-size: 2rem;
+    }
+
+    .secondContainer2 h3 {
+        padding: 10px;
+        font-size: 0.88rem;
+        text-indent: 30px;
+        color: var(--gray-800);
+        font-weight: 300;
+        padding: 20px;
+    }
+
+    .secondContainer2 b {
+        font-weight: 900;
+        color: var(--violet);
+    }
+
 }
