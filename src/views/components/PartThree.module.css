@@ -37,11 +37,11 @@
 
 @media(max-width:768px) {
     .firstContainer3 {
-        height: auto;
+        height: 120vw;
     }
 
     .secondContainer3 {
-        height: auto;
+        height: 120vw;
     }
 
     .secondContainer3 img{

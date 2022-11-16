@@ -121,14 +121,15 @@
     }
 
     .secondContainer2 #texto1p2 img{
-        height: 36vh;
-        width: auto;
+        
+        width: 80%;
         margin: 0;
         padding: 10px;
     }
     .secondContainer2 #texto2p2 img{
-        height: 30vh;
-        width: auto;
+        
+        width: 80%;
+        
         margin: 0;
         padding: 10px;
     }
