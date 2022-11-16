@@ -104,7 +104,7 @@
         align-items: center;
         margin-top: 5%;
         display: block;
-        box-sizing: content-box;
+        box-sizing: border-box;;
     }
 
     .secondContainer2 #texto2p2 {
@@ -115,16 +115,18 @@
         margin-top: 0;
         align-items: center;
         display: block;
-        box-sizing: content-box;
+        box-sizing: border-box;
     }
 
     .secondContainer2 #texto1p2 img{
-        height: 40vh;
+        height: 36vh;
+        width: auto;
         margin: 0;
         padding: 10px;
     }
     .secondContainer2 #texto2p2 img{
-        height: 34vh;
+        height: 30vh;
+        width: auto;
         margin: 0;
         padding: 10px;
     }

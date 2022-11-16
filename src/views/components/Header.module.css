@@ -64,6 +64,24 @@ li:hover {
         background-color: white;
         height: 14vh;
     }
+
+    .social {
+        text-align: center;
+        font-size: 1.2rem;
+        position: relative;
+        height: 14vh;
+        width: 40vw;
+        transform: translateY(50%);
+    }
+
+    li {
+        display: inline;
+        margin: 5px;
+        text-decoration: none;
+        list-style: none;
+        color: var(--blue-600);
+        font-size: 1.0rem;
+    }
     
     img {
         height: 14vh;
