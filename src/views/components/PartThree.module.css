@@ -35,13 +35,13 @@
 
 }
 
-@media(max-width:768px) {
+@media(max-width:1200px) {
     .firstContainer3 {
-        height: 120vw;
+        height: auto;
     }
 
     .secondContainer3 {
-        height: 120vw;
+        height: auto;
     }
 
     .secondContainer3 img{
@@ -51,11 +51,12 @@
     .secondContainer3 video {
         align-items: center;
         border-radius: 10px;
-        margin: 0;
         text-align: center;
         background-color: transparent;
-        height: 100%;
-    width: 90%;
+        height: auto;
+        width: 90%;
+        margin: auto;
+        padding: 10px;
     }
 
 }

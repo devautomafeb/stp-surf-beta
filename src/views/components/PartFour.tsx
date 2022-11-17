@@ -17,21 +17,21 @@ function PartFour() {
 
                 <div className={styles.professorBlock}>
                     <img src={professor01} />
-                    <h2><FaInstagram />   Rafael</h2>
+                    <h2>Rafael Maia, o “Rafa”</h2>
                 </div>
                 <div className={styles.professorBlock}>
                     <img src={professor02} />
-                    <h2><FaInstagram />   Gabriel</h2>
+                    <h2>Gabriel Vasconcellos, o “Biel”</h2>
 
                 </div>
                 <div className={styles.professorBlock}>
                     <img src={professor033} />
-                    <h2><FaInstagram />   Lucas "Curió"</h2>
+                    <h2>Lucas Guigues, o “Curió”</h2>
 
                 </div>
                 <div className={styles.professorBlock}>
                     <img src={professor04} />
-                    <h2><FaInstagram />   João Felipe</h2>
+                    <h2>João Felipe Amaral, o “João”</h2>
 
                 </div>
 

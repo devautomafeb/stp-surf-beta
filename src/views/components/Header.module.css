@@ -8,7 +8,8 @@
     background-color: white;
     height: 14vh;
     width: 100vw;
-    margin: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     border-bottom: 2px solid var(--blue-600);
     border-top: 2px solid var(--blue-600);
 }
