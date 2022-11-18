@@ -1,0 +1,28 @@
+.firstContainerA {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../../assets/images/fotao.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    background-color: var(--violet);
+}
+
+.schedule {
+    position: absolute;
+    font-size: 1.0rem;
+    background-color: black;
+    color: white;
+    width: 200px;
+    bottom: 40%;
+    right: 10%;
+    border-radius: 20px;
+    padding: 5px;
+    box-sizing: content-box;
+}
+
+.schedule h2 {
+    color: white;
+    text-decoration: underline;
+}
