@@ -1,0 +1,170 @@
+.firstChoose {
+    height: 110vh;
+    width: 100vw;
+    background-size: cover;
+    background-color: var(--violet);
+    background-position: center;
+    text-align: center;
+}
+
+.secondChoose {
+    background-color: var(--violet);
+    background-image: linear-gradient(-25deg, var(--blue-200), white);
+    height: 110vh;
+    width: 95vw;
+    border-bottom: 1px solid var(--blue-600);
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.secondChoose #surf {
+    display: inline-block;
+    background-image: url("../../assets/images/imagem01.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    height: 75vh;
+    width: 30vw;
+    margin: auto;
+    box-sizing: border-box;
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--blue-600);
+    box-shadow: 0 0 40px var(--gray-800);
+}
+
+.secondChoose #arena {
+    display: inline-block;
+    background-image: url("../../assets/images/fotao.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin: auto;
+    height: 75vh;
+    width: 30vw;
+    box-sizing: border-box;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--blue-600);
+    box-shadow: 0 0 40px var(--gray-800);
+
+}
+
+.secondChoose h1,
+h2,
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.secondChoose h1,
+h3 {
+    color: var(--violet);
+}
+
+.secondChoose #arena b {
+    font-weight: 900;
+    color: var(--violet);
+}
+
+.secondChoose img {
+    height: 25vh;
+    margin: 50px;
+}
+
+.secondChoose #surf:hover {
+    border-radius: 10px;
+    height: 85vh;
+    width: 35vw;
+    margin: auto;
+    box-sizing: border-box;
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--blue-600);
+    box-shadow: 0 0 40px var(--gray-800);
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.secondChoose #arena:hover {
+    
+    border-radius: 10px;
+    margin: auto;
+    height: 85vh;
+    width: 35vw;
+    box-sizing: border-box;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--blue-600);
+    box-shadow: 0 0 40px var(--gray-800);
+    transition: 500ms;
+    cursor: pointer;
+}
+
+
+@media(max-width:788px){
+
+    .firstChoose{
+        height: auto;
+    }
+
+    .secondChoose{
+        height: auto;
+        display: block;
+        align-items: center;
+    }
+   .secondChoose #surf{
+        display: block;
+        height: 60vh;
+        width: 60vw;
+        margin-bottom: 30px;
+    }
+    .secondChoose #arena {
+        display: block;
+        height: 40vh;
+        width: 60vw;
+    }
+    .secondChoose img{
+        display: none;
+    }
+    .secondChoose h1,
+h2,
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+.secondChoose #surf:hover {
+    border-radius: 10px;
+    height: 85vh;
+    width: 70vw;
+    margin: auto;
+    box-sizing: border-box;
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--blue-600);
+    box-shadow: 0 0 40px var(--gray-800);
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.secondChoose #arena:hover {
+    
+    border-radius: 10px;
+    margin: auto;
+    height: 85vh;
+    width: 70vw;
+    box-sizing: border-box;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--blue-600);
+    box-shadow: 0 0 40px var(--gray-800);
+    transition: 500ms;
+    cursor: pointer;
+}
+}

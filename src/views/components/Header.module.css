@@ -1,5 +1,6 @@
 .container {
     background-color: white;
+    min-height: 90px;
 }
 
 .header {
@@ -7,6 +8,7 @@
     /*background-image: linear-gradient(30deg,var(--blue-200), white,var(--blue-200),white,var(--blue-200), white  );*/
     background-color: white;
     height: 14vh;
+    min-height: 90px;
     width: 100vw;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -18,8 +20,9 @@
     text-align: center;
     font-size: 1.5rem;
     position: relative;
-    height: 14vh;
+    height: 60px;
     width: 40vw;
+    margin-bottom: -0px;
     transform: translateY(60%);
 }
 
@@ -29,11 +32,13 @@
     position: relative;
     width: 60vw;
     height: 20vh;
+    min-height: 90px;
 }
 
 img {
     height: 14vh;
     padding: 5px;
+    min-height: 90px;
 }
 
 .tools {

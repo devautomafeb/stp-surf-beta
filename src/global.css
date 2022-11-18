@@ -18,7 +18,9 @@
     line-height: 2;
     color: var(--gray-800);
     box-sizing: border-box;
+    text-decoration: none;
 }
+
 
 
 

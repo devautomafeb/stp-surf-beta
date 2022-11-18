@@ -9,7 +9,7 @@
 
 .secondContainer6 {
     background-color: var(--violet);
-    background-image: linear-gradient(75deg, var(--blue-400), var(--violet));
+    background-image: linear-gradient(75deg, var(--blue-200), white);
     height: 100vh;
     width: 95vw;
     border-bottom: 1px solid var(--blue-600);
@@ -70,6 +70,7 @@
         border-radius: 10px;
         margin: 10px;
         height: 45vh;
+        width: auto;
     }
 
     .secondContainer6 .informations h2 a {
