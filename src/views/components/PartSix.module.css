@@ -28,9 +28,8 @@
     text-align: center;
     border-radius: 10px;
     backdrop-filter: blur(10px);
-    border: 1px solid var(--blue-600);
     box-shadow: 0 0 40px var(--gray-800);
-    margin-left: 2vw;
+    margin:10px;
 }
 
 .secondContainer6 .informations img {
@@ -48,23 +47,39 @@
     margin-top: -20px;
 }
 
+.secondContainer6 #insta {
+    display: none;
+}
+
 @media(max-width:900px) {
 
     .firstContainer6 {
-        height: 180vh;
+        height: auto;
         width: 100vw;
         box-sizing: border-box;
     }
 
     .secondContainer6 {
         display: block;
-        height: 180vh;
+        height: auto;
         box-sizing: border-box;
-        
+
     }
+
     .secondContainer6 .informations {
-        height: 520px;
+        height: auto;
+        margin-bottom: 20px;
+        border: 0;
     }
+
+    .secondContainer6 #insta {
+        display: block;
+        height: auto;
+        margin: 0;
+        padding: 20px;
+        background-color: transparent;
+    }
+
     .secondContainer6 .informations img {
         height: 60%;
         border-radius: 10px;
