@@ -21,7 +21,7 @@
 
 .secondContainer4 h1 {
     display: block;
-    font-size: 4rem;
+    font-size: 4em;
     padding: 5px;
     align-items: center;
     justify-self: center;
@@ -64,7 +64,7 @@
 .professorBlock h2 {
     font-family: 'SurferBay', sans-serif;
     font-weight: 200;
-    font-size: 1.4rem;
+    font-size: 1.4em;
     font-style: normal;
     padding: 5px;
     margin-top: 10px;
@@ -92,7 +92,7 @@
     
     .secondContainer4 h1 {
         display: block;
-        font-size: 2rem;
+        font-size: 2em;
     }
     
     .professorBlock {
@@ -121,7 +121,7 @@
     .professorBlock h2 {
         font-family: 'SurferBay', sans-serif;
         font-weight: 200;
-        font-size: 1rem;
+        font-size: 1em;
         font-style: normal;
         padding: 5px;
         margin-top: 10px;
