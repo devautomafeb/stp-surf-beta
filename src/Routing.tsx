@@ -10,8 +10,8 @@ function Routing() {
 
             <Routes>
                 <Route path="/" element={<Choose />} />
-                <Route path="/surf" element={<FirstPage />} />
-                <Route path="/arena" element={<ArenaPage />} />
+                <Route path="surf" element={<FirstPage />} />
+                <Route path="arena" element={<ArenaPage />} />
             </Routes>
         </div>
     )
