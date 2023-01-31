@@ -1,8 +1,10 @@
 import styles from './Header.module.css';
 
-import { FaInstagram, FaFacebookF, FaWhatsapp } from "react-icons/fa";
-import { MdEmail, MdSurfing } from "react-icons/md";
+import { FaInstagram, FaFacebookF, FaRunning, FaArrowRight, FaArrowCircleRight } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 import logo from "../../assets/images/Logo.png";
+
+import { Link } from 'react-router-dom';
 
 function Header() {
     return (
@@ -10,9 +12,8 @@ function Header() {
             <div className={styles.header}>
                 <div className={styles.social}>
                     <ul>
-                        <li><FaInstagram /></li>
+                        <a href='https://www.instagram.com/stp.surfschool/'><li><FaInstagram /></li></a>
                         <li><FaFacebookF /></li>
-                        <li><FaWhatsapp /></li>
                         <li><MdEmail /></li>
                     </ul>
                 </div>
@@ -23,8 +24,11 @@ function Header() {
 
                 <div className={styles.tools}>
                     <ul>
-                        <li>Login</li>
-                        <MdSurfing size={'2rem'} color={'#1e4f61'}/>
+                        <Link to='/arena'>
+                        <FaArrowCircleRight size={'1.2rem'} color={'#1e4f61'} />
+                            <li>Arena STP</li>
+                            
+                        </Link>
                     </ul>
                 </div>
             </div>

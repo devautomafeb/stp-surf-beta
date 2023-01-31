@@ -7,7 +7,7 @@ import logo from "../../assets/images/Logo.png";
 function Footer() {
     return (
         <div className={styles.footer} >
-
+                <img src={logo} />
         </div>
     )
 
