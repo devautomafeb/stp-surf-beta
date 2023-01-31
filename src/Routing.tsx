@@ -8,9 +8,11 @@ function Routing() {
     return (
         <div>
             <Routes>
-                <Route path="/*" element={<Choose />} />
+                <Route path="/" element={<Choose />} />
+                <Route index element={<Choose />} />
                 <Route path="/surf" element={<FirstPage />} />
                 <Route path="/arena" element={<ArenaPage />} />
+                
             </Routes>
         </div>
     )
