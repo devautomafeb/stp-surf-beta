@@ -1,0 +1,97 @@
+.firstContainer6 {
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+    background-color: var(--violet);
+    background-position: center;
+    text-align: center;
+}
+
+.secondContainer6 {
+    background-color: var(--violet);
+    background-image: linear-gradient(75deg, var(--blue-200), white);
+    height: 100vh;
+    width: 95vw;
+    border-bottom: 1px solid var(--blue-600);
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+}
+
+.secondContainer6 .informations {
+    height: 90vh;
+    width: 90vw;
+    background-size: cover;
+    background-color: transparent;
+    background-position: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 40px var(--gray-800);
+    margin:10px;
+}
+
+.secondContainer6 .informations img {
+    height: 85%;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+.secondContainer6 .informations h3 a {
+    color: var(--gray-800);
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight:300;
+    margin-top: -20px;
+}
+
+.secondContainer6 #insta {
+    display: none;
+}
+
+@media(max-width:900px) {
+
+    .firstContainer6 {
+        height: auto;
+        width: auto;
+        box-sizing: border-box;
+    }
+
+    .secondContainer6 {
+        display: block;
+        height: auto;
+        box-sizing: border-box;
+
+    }
+
+    .secondContainer6 .informations {
+        height: auto;
+        margin-bottom: 20px;
+        border: 0;
+    }
+
+    .secondContainer6 #insta {
+        display: block;
+        height: auto;
+        margin: 0;
+        padding: 20px;
+        background-color: transparent;
+    }
+
+    .secondContainer6 .informations img {
+        height: 60%;
+        border-radius: 10px;
+        margin: 10px;
+        height: 40vh;
+        width: auto;
+    }
+
+    .secondContainer6 .informations h3 a {
+        color: var(--gray-800);
+        text-decoration: none;
+        font-size: 0.8em;
+        font-weight: 300;
+        margin-top: -20px;
+    }
+}

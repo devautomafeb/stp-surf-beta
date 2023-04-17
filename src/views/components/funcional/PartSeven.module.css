@@ -1,0 +1,114 @@
+.partSevenForm {
+    height: auto;
+    width: auto;
+    background-size: cover;
+    background-color: transparent;
+    background-position: center;
+    text-align: center;
+}
+
+
+.partSevenForm form {
+    height: 90vh;
+    width: 40vw;
+    padding: 10px;
+    margin: 5%;
+    margin-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    background-color: transparent;
+    /*position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;*/
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid var(--blue-200);
+    box-shadow: 0 0 40px var(--gray-800);
+    padding: 50px 35px;
+}
+
+.partSevenForm form * {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+
+.partSevenForm from h1 {
+    margin: 0;
+}
+
+.partSevenForm form h3 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
+
+.partSevenForm label {
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.partSevenForm form img {
+    height: 15%;
+    margin: 0;
+}
+
+.partSevenForm input {
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+    padding: 0 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--gray-800);
+}
+
+.partSevenForm textarea {
+
+    height: 120px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+    padding: 10px 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--gray-800);
+}
+
+::placeholder {
+    color: var(--gray-800);
+}
+
+button {
+    margin-top: 20px;
+    width: 100%;
+    background-color: var(--blue-600);
+    color: var(--blue-600);
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.partSevenForm button:hover {
+    background-color: var(--blue-400);
+}
+
+@media(max-width:768px) {
+    .partSevenForm form {
+        height: 100vh;
+        width: auto;
+    }
+}
