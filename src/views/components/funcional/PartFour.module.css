@@ -29,6 +29,7 @@
 }
 
 .professorBlock {
+    display: inline-block;
     background-color: white;
     border-radius: 10px;
     height: auto;
@@ -43,7 +44,7 @@
 
 .professorBlock:hover {
     height: auto;
-    width: 20vw;
+    width: auto;
     cursor: pointer;
     background-color: var(--blue-200);
     transition-duration: 500ms;
@@ -72,9 +73,10 @@
 
 @media(max-width:768px){
     .firstContainer4 {
-        height: 100vh;
+        height: auto;
         width: auto;
         box-sizing: border-box;
+        
     }
 
     .secondContainer4 {
@@ -125,8 +127,6 @@
     .professorBlock:hover {
 
         background-color: var(--blue-200);
-        height: auto;
-        width: 40%;
     }
     
   

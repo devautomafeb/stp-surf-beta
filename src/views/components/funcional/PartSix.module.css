@@ -67,7 +67,6 @@
 
     .secondContainer6 .informations {
         height: auto;
-        margin-bottom: 20px;
         border: 0;
     }
 
@@ -82,9 +81,8 @@
     .secondContainer6 .informations img {
         height: 60%;
         border-radius: 10px;
-        margin: 10px;
-        height: 40vh;
-        width: auto;
+        height: auto;
+        width: 80vw;
     }
 
     .secondContainer6 .informations h3 a {
@@ -92,6 +90,5 @@
         text-decoration: none;
         font-size: 0.8em;
         font-weight: 300;
-        margin-top: -20px;
     }
 }

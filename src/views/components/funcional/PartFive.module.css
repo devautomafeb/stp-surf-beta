@@ -74,10 +74,15 @@ h3 {
 
 @media(max-width:768px){
 
+    .firstContainer5{
+        height: auto;
+    }
     .secondContainer5{
         display: block;
         align-items: center;
         width: auto;
+        height: auto;
+        
     }
     
    .secondContainer5 #scheduleAvailabe{
@@ -90,6 +95,7 @@ h3 {
         display: block;
         height: 40vh;
         width: 60vw;
+        
     }
     .secondContainer5 img{
         display: none;
