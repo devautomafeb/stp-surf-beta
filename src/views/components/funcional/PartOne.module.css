@@ -31,12 +31,12 @@
     transition-duration: 500ms;
 }
 
-@media(max-width:700px) {
+@media(max-width:1200px) {
 
     .firstContainer {
         height: 100vh;
         width: auto;
-        background-image: url("../../../assets/images/ArenaCapa3.jpg");
+        background-image: url("../../../assets/images/fotao.jpg");
         background-size:cover;
         background-position:center;
         text-align: center;
