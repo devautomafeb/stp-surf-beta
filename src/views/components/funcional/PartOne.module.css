@@ -1,7 +1,7 @@
 .firstContainer {
     height: 100vh;
     width: auto;
-    background-image: url("../../../assets/images/ArenaCapa3.JPG");
+    background-image: url("../../../assets/images/ArenaCapa2.JPG");
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -36,7 +36,7 @@
     .firstContainer {
         height: 100vh;
         width: auto;
-        background-image: url("../../../assets/images/ArenaCapa3.jpg");
+        background-image: url("../../../assets/images/fotao.jpg");
         background-size:cover;
         background-position:center;
         text-align: center;

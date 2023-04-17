@@ -136,7 +136,20 @@
 @media(max-width:768px) {
   .firstContainer2 {
     height: auto;
-    width: auto;}
+    width: auto;
+  }
+  .flipCard:hover .firstContainer2{
+    height: auto;
+    width: auto;
+  }
+
+  .flipCardBack h3 {
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 300;
+    font-size: 1rem;
+  }
 
   .secondContainer2 #texto1p2 {
     display: block;
@@ -150,15 +163,16 @@
   }
 
   .secondContainer2 img {
-    height: 80vh;
+    height: 70vh;
     width: auto;
     border-radius: 0 60px 0 60px;
     border: 1px solid var(--violet);
     margin: 10px;
   }
 
-  .flipCard{
+  .flipCard {
     height: auto;
+    width: auto;
     margin-bottom: 10%;
   }
 

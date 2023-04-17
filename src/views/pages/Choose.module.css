@@ -49,6 +49,7 @@
     backdrop-filter: blur(10px);
     border: 1px solid var(--blue-600);
     box-shadow: 0 0 40px var(--gray-800);
+    margin-bottom: 5%;
 }
 
 .secondChoose h1,
