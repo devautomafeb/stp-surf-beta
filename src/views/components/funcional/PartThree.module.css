@@ -34,7 +34,7 @@
     background-color: transparent;
 }
 
-@media(max-width:1200px) {
+@media(max-width:768px) {
     .firstContainer3 {
         height: auto;
         width: auto;
