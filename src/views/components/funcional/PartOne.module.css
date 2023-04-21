@@ -1,0 +1,48 @@
+.firstContainer {
+    height: 100vh;
+    width: auto;
+    background-image: url("../../../assets/images/ArenaCapa2.JPG");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.schedule {
+    position: absolute;
+    font-size: 1.0rem;
+    background-color: black;
+    color: white;
+    width: 200px;
+    bottom: 40%;
+    right: 10%;
+    border-radius: 20px;
+    padding: 5px;
+    box-sizing: content-box;
+}
+
+.schedule h2 {
+    color: white;
+    text-decoration: underline;
+}
+
+.firstContainer .schedule:hover {
+    background-color: var(--blue-400);
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+
+@media(max-width:700px) {
+
+    .firstContainer {
+        height: 100vh;
+        width: auto;
+        background-image: url("../../../assets/images/fotao.jpg");
+        background-size:cover;
+        background-position:center;
+        text-align: center;
+    }
+
+    .schedule {
+        display: none;
+    }
+}

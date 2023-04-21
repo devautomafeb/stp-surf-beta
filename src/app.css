@@ -1,0 +1,10 @@
+
+@font-face {
+    font-family: 'SurferBay';
+    src:url("../src/assets/fonts/SurferBay.otf");
+}
+
+h1{
+    font-family: 'SurferBay',sans-serif;
+    font-style: italic;
+}

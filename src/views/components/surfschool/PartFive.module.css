@@ -1,0 +1,104 @@
+.firstContainer5 {
+    height:auto;
+    width: auto;
+    background-size: cover;
+    background-color: var(--violet);
+    background-position: center;
+    text-align: center;
+}
+
+.secondContainer5 {
+    background-color: var(--violet);
+    background-image: linear-gradient(-25deg, var(--violet), var(--blue-400));
+    height: auto;
+    width: 95vw;
+    border-bottom: 1px solid var(--blue-600);
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.secondContainer5 #scheduleAvailabe {
+    display: inline-block;
+    background-color: var(--gray-200);
+    border-radius: 10px;
+    height: 75vh;
+    width: 30vw;
+    margin: auto;
+    box-sizing: border-box;
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--blue-600);
+    box-shadow: 0 0 40px var(--gray-800);
+}
+
+.secondContainer5 #prices {
+    display: inline-block;
+    background-color: var(--gray-200);
+    border-radius: 10px;
+    margin: auto;
+    height: 75vh;
+    width: 30vw;
+    box-sizing: border-box;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--blue-600);
+    box-shadow: 0 0 40px var(--gray-800);
+
+}
+
+.secondContainer5 h1,
+h2,
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.secondContainer5 h1,
+h3 {
+    color: var(--violet);
+}
+
+.secondContainer5 #prices b {
+    font-weight: 900;
+    color: var(--violet);
+}
+
+.secondContainer5 img {
+    height: 25vh;
+}
+
+
+@media(max-width:788px){
+
+    .secondContainer5{
+        display: block;
+        align-items: center;
+    }
+   .secondContainer5 #scheduleAvailabe{
+        display: block;
+        height: 60vh;
+        width: 60vw;
+        margin-bottom: 30px;
+    }
+    .secondContainer5 #prices {
+        display: block;
+        height: 40vh;
+        width: 60vw;
+    }
+    .secondContainer5 img{
+        display: none;
+    }
+    .secondContainer5 h1,
+h2,
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 5px;
+}
+}

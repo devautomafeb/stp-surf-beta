@@ -1,0 +1,144 @@
+.firstContainer4 {
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+    background-color: var(--violet);
+    background-position: center;
+    text-align: center;
+}
+
+.secondContainer4 {
+    background-color: var(--violet);
+    background-image: linear-gradient(-25deg, white, var(--gray-200));
+    height: 100vh;
+    width: 95vw;
+    border-bottom: 1px solid var(--blue-600);
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.secondContainer4 h1 {
+    display: block;
+    font-size: 4em;
+    padding: 5px;
+    align-items: center;
+    justify-self: center;
+    font-style: normal;
+}
+
+.professorBlock {
+    display: inline-block;
+    background-color: white;
+    border-radius: 10px;
+    height: auto;
+    width: auto;
+    margin: 2vw;
+    box-sizing: border-box;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--blue-200);
+    box-shadow: 0 0 40px var(--gray-800);
+}
+
+.professorBlock:hover {
+    height: auto;
+    width: auto;
+    cursor: pointer;
+    background-color: var(--blue-200);
+    transition-duration: 500ms;
+}
+
+.professorBlock img {
+    height: auto;
+    width: 18vw;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-bottom: -10%;
+    margin-right: 2px;
+    margin-left: 2px;
+    padding: 1px;
+    border: 1px solid var(--gray-500);
+}
+
+.professorBlock h2 {
+    font-family: 'SurferBay', sans-serif;
+    font-weight: 200;
+    font-size: 1.4em;
+    font-style: normal;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+@media(max-width:768px){
+    .firstContainer4 {
+        height: auto;
+        width: auto;
+        box-sizing: border-box;
+        
+    }
+
+    .secondContainer4 {
+        background-color: var(--violet);
+        background-image: linear-gradient(-25deg, white, var(--gray-200));
+        height: auto;
+        width: 95vw;
+        border-bottom: 1px solid var(--blue-600);
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+    
+    .secondContainer4 h1 {
+        display: block;
+        font-size: 2em;
+    }
+    
+    .professorBlock {
+        justify-content: center;
+        display: block;
+        background-color: white;
+        border-radius: 10px;
+        height: auto;
+        width: auto;
+        margin: 2vw;
+        box-sizing: border-box;
+        border-radius: 10px;
+        backdrop-filter: blur(10px);
+        border: 1px solid var(--blue-200);
+        box-shadow: 0 0 40px var(--gray-800);
+    }
+    
+    .professorBlock img {
+        height:50vh;
+        width: auto;
+        border-radius: 10px;
+        margin-top: 5%;
+        margin-bottom: -5%;
+        margin-right: 2px;
+        margin-left: 2px;
+        padding: 1px;
+        border: 1px solid var(--gray-500);
+    }
+
+    .professorBlock:hover {
+
+        background-color: var(--blue-200);
+    }
+    
+  
+    
+    .professorBlock h2 {
+        font-family: 'SurferBay', sans-serif;
+        font-weight: 200;
+        font-size: 1.5rem;
+        font-style: normal;
+        padding: 5px;
+        margin-top: 10px;
+    }
+
+
+}
