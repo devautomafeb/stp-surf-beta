@@ -129,11 +129,11 @@ function MuayThai() {
 
 function handlePrice(variantPrice: React.ReactNode) {
 
-    if (variantPrice == 'surf') {
+    if (variantPrice === 'surf') {
         return (
             <SurfPrices />
         )
-    } else if (variantPrice == "funcional") {
+    } else if (variantPrice === "funcional") {
         return (
             <Funcional />
         )
@@ -143,12 +143,12 @@ function handlePrice(variantPrice: React.ReactNode) {
             <MuayThai />
         )
     }
-    else if (variantPrice == "yoga") {
+    else if (variantPrice === "yoga") {
         return (
             <Yoga />
         )
     }
-    else if (variantPrice == "beachTennis") {
+    else if (variantPrice === "beachTennis") {
         return (
             <Beachtenis />
         )
