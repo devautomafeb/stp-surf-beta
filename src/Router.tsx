@@ -6,6 +6,7 @@ import { Surf } from "./views/Surf";
 import {Funcional} from "./views/Funcional";
 import {Yoga} from "./views/Yoga";
 import {Muaythai} from "./views/Muaythai";
+import { Beachtenis } from "./views/Beachtenis";
 
 
 export default function Router() {
@@ -15,6 +16,7 @@ export default function Router() {
             <Route path = "/" element={<Choose />} />
                 <Route path = "/surf" element={<Surf />} />
                 <Route path = "/funcional" element={<Funcional />} />
+                <Route path = "/beachtennis" element={<Beachtenis />} />
                 <Route path = "/yoga" element={<Yoga />} />
                 <Route path = "/muaythai" element={<Muaythai />} />
             </Route>

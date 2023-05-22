@@ -24,7 +24,14 @@ export function Choose() {
             <ChooseButton>
                 <Link to='/muaythai'style={{textDecoration:'none'}}>
  
-                    <FontAsH1>Muay Thai    </FontAsH1>
+                    <FontAsH1>Muay-Thai    </FontAsH1>
+                </Link>
+            </ChooseButton>
+
+            <ChooseButton>
+                <Link to='/beachtennis'style={{textDecoration:'none'}}>
+ 
+                    <FontAsH1>Beach-Tennis    </FontAsH1>
                 </Link>
             </ChooseButton>
             

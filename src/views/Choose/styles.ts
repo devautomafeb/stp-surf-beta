@@ -50,6 +50,7 @@ export const ChooseButton = styled.button`
         height:auto;
         min-height: 50px;
         width:90%;
+        margin:10px;
     }
 `;
 
