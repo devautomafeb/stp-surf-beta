@@ -39,16 +39,15 @@ export const Informations = styled.div`
 export const Img = styled.img`
     box-sizing: border-box;
     height: auto;
-    width:40vw;
+    max-width:40vw;
     border-radius: 10px;
     margin: 10px;
     
     @media(max-width:768px){
-        height: 60%;
+        height: auto;
         border-radius: 10px;
         margin: 10px;
-        height: 40vh;
-        width: auto;
+        max-width:80vw;
     }`
 
 export const FontAsH3 = styled.h3`
