@@ -27,12 +27,7 @@ export function Choose() {
                     <FontAsH1>Muay Thai    </FontAsH1>
                 </Link>
             </ChooseButton>
-            <ChooseButton>
-                <Link to='/beachtennis'style={{textDecoration:'none'}}>
-         
-                    <FontAsH1>Beach Tennis   </FontAsH1>
-                </Link>
-            </ChooseButton>
+            
             <ChooseButton>
                 <Link to='/yoga'style={{textDecoration:'none'}}>
 
