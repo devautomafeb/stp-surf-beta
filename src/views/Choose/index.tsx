@@ -9,38 +9,39 @@ export function Choose() {
     return (
         <ChooseContainer>
             <Logo><Img src={logo} style={{marginBottom:'20px'}} /></Logo>
-            <ChooseButton>
+            
                 <Link to='/surf'style={{textDecoration:'none'}}>
                    
-                    <FontAsH1>Surf</FontAsH1>
-                </Link>
-            </ChooseButton>
-            <ChooseButton>
-                <Link to='/funcional' style={{textDecoration:'none'}}>
-                
-                    <FontAsH1>Funcional     </FontAsH1>
-                </Link>
-            </ChooseButton>
-            <ChooseButton>
-                <Link to='/muaythai'style={{textDecoration:'none'}}>
- 
-                    <FontAsH1>Muay-Thai    </FontAsH1>
-                </Link>
-            </ChooseButton>
-
-            <ChooseButton>
-                <Link to='/beachtennis'style={{textDecoration:'none'}}>
- 
-                    <FontAsH1>Beach-Tennis    </FontAsH1>
-                </Link>
-            </ChooseButton>
+                 <ChooseButton>  
+                     <FontAsH1>Surf</FontAsH1>
+               
+              </ChooseButton>       
+            </Link>
             
-            <ChooseButton>
-                <Link to='/yoga'style={{textDecoration:'none'}}>
+            
+                <Link to='/funcional' style={{textDecoration:'none'}}>
+                <ChooseButton>
+                    <FontAsH1>Funcional     </FontAsH1>
+               </ChooseButton>
+                    </Link>
+           
+            
+                <Link to='/muaythai'style={{textDecoration:'none'}}>
+ <ChooseButton>
+                    <FontAsH1>Muay-Thai    </FontAsH1>
+   </ChooseButton>             
+     </Link>
+            
 
+ 
+            
+            
+                <Link to='/yoga'style={{textDecoration:'none'}}>
+          <ChooseButton>
                     <FontAsH1>Yoga         </FontAsH1>
+           </ChooseButton>  
                 </Link>
-            </ChooseButton>
+            
             <ChooseButton>
                 <a href='https://www.instagram.com/arena.stp/' style={{textDecoration:'none'}}>
                     <FontAsH1>Instagram         </FontAsH1>
