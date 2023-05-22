@@ -17,7 +17,7 @@ import { Prices } from "../../components/Prices";
 import { MapView } from "../../components/MapView";
 import { Footer } from "../../components/Footer";
 
-export function MuayThai() {
+export function Muaythai() {
 
     const textA = <FontAsH3>
         <FontAsH3>MUAY THAI: Você quer se sentir mais confiante, saudável e com energia para enfrentar o dia
