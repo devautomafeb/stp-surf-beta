@@ -27,7 +27,7 @@ export const ChooseContainer = styled.div`
 export const ChooseButton = styled.button`
     display: inline-block;
     padding-top:10px;
-    height: 70px;
+    height:90px;
     width: 35vw;
     margin:5px;
     background-color: ${(props) => props.theme['--blue-600']};
@@ -74,7 +74,7 @@ export const FontAsH1 = styled.h1`
     }
 
     @media(max-width:768px){
-        
-        font-size: 0.88rem;
+        font-size: 1.3rem;
+        font-weight: 700;
     }
     `
