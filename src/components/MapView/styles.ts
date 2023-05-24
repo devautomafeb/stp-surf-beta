@@ -41,13 +41,12 @@ export const Img = styled.img`
     height: auto;
     max-width:40vw;
     border-radius: 10px;
-    margin: 10px;
+    
     
     @media(max-width:768px){
         height: auto;
         border-radius: 10px;
-        margin: 10px;
-        max-width:80vw;
+        max-width:75vw;
     }`
 
 export const FontAsH3 = styled.h3`
