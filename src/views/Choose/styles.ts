@@ -58,10 +58,8 @@ export const FontAsH1 = styled.h1`
     display:inline;
     font-size: 1.4rem;
     font-weight: 700;
-    padding: 50px;
+    padding: 10px;
     color: ${(props) => props.theme['--gray-200']};
-    font-weight: 100;
-    line-height:40px;
     margin: 0;
   position: absolute;
   top: 50%;
