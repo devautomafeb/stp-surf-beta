@@ -1,7 +1,7 @@
 import { Img, Logo } from "../../components/MainVideo/styles";
 import { ChooseButton, ChooseContainer } from "./styles";
 
-import logo from "../../assets/images/Logo.png";
+import logo from "../../assets/images/Screenshot_20230523_225823_WhatsApp.jpg";
 import { Link } from "react-router-dom";
 import { FontAsH1 } from "./styles";
 
