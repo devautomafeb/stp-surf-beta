@@ -40,7 +40,6 @@ export const PricesContainer = styled.div`
          ${(props) => props.theme['--violet']} 87%);
         align-items: center;
         display: block;
-        height: 80vh;
         width: auto;
         margin-bottom: 30px;
      }
