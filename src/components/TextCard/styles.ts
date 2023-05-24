@@ -75,11 +75,11 @@ export const Img = styled.img<TextVariantProps>`
     }   
 
     @media(max-width:768px){
-        max-width:80vw;
+        max-width:90vw;
         height:auto;
         margin: 0;
         border-radius: 0 60px 0 60px;
-        padding: 20px;
+        padding: 5px;
     }
 `;
 
