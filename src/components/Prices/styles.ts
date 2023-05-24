@@ -19,7 +19,8 @@ export const PricesContainer = styled.div`
     display:inline-block;
     text-align:center;
     border-radius: 10px;
-    height: 80vh;
+    height:auto;
+    min-height: 60vh;
     width: 30vw;
     padding:50px;
     margin: auto;
