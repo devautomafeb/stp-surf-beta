@@ -25,7 +25,7 @@ export const ChooseContainer = styled.div`
 `;
 
 export const ChooseButton = styled.button`
-    display: inline-block;
+    display: block;
     padding-top:10px;
     height:90px;
     width: 35vw;
