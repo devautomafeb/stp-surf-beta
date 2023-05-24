@@ -19,15 +19,13 @@ import { Footer } from "../../components/Footer";
 
 export function Muaythai() {
 
-    const textA = <FontAsH3>
+    const textA = 
         <FontAsH3>MUAY THAI: Você quer se sentir mais confiante, saudável e com energia para enfrentar o dia
             a dia? Então venha experimentar as aulas de Muay Thai na praia da Barra da Tijuca!
             Com o Muay Thai, você pode queimar até <FontBold>1000 calorias</FontBold> em uma única aula, além de
             melhorar sua coordenação motora, equilíbrio e condicionamento cardiovascular.
             Não importa se você é iniciante ou avançado, nossos treinadores especializados estão
             prontos para ajuda-lo a alcançar seus onbjetivos.</FontAsH3>
-
-    </FontAsH3>
 
     const textB = <FontAsH3>E o melhor de tudo? Você vai estar se exercitando em um <FontBold>ambiente incrível</FontBold>, ao ar livre e com vista para o mar.
         <FontBold> Não perca mais tempo</FontBold>, venha se juntar a nossa comunidade e experimente a sensação única de treinar Muay Thai na praia!
