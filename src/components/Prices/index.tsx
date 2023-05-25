@@ -1,6 +1,6 @@
 import { FontAsH1, FontAsH2, FontAsH3, Img, PricesContainer, PricesContainerSuper } from "./styles";
 
-import logo from "../../assets/images/Logo.png";
+import logo from "../../assets/images/Screenshot_20230523_225823_WhatsApp-removebg-preview.png";
 import { FaMoneyBillWave, FaRegCalendarAlt } from "react-icons/fa";
 import React from "react";
 import { Beachtenis } from "../../views/Beachtenis";
