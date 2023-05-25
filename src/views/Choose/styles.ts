@@ -21,9 +21,7 @@ export const ChooseContainer = styled.div`
     @media(max-width:768px){
         height:100vh;
         width:95%;
-display:flex;
-align-items: center;
-  justify-content: center;
+
     }
 `;
 
@@ -54,6 +52,11 @@ export const ChooseButton = styled.button`
         min-height: 50px;
         width:90%;
         margin:10px;
+display:flex;
+
+align-items: center;
+
+  justify-content: center;
     }
 `;
 
