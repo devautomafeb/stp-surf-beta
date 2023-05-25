@@ -60,11 +60,12 @@ export const FontAsH1 = styled.h1`
     font-weight: 700;
     padding: 10px;
     color: ${(props) => props.theme['--gray-200']};
-    margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    margin: auto;
+    text-align:center;
+ 
+ 
+ 
+ 
 
     :hover{
         transition:100ms;
