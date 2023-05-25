@@ -55,7 +55,7 @@ export const ChooseButton = styled.button`
 display:flex;
 
 align-items: center;
-
+padding-bottom:10px;
   justify-content: center;
     }
 `;
