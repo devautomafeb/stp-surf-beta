@@ -28,8 +28,7 @@ export const PricesContainer = styled.div`
     backdrop-filter: blur(10px);
     border: 1px solid  ${(props) => props.theme['--violet']};
     box-shadow: 0 0 40px  ${(props) => props.theme['--violet']};
-    background:linear-gradient(191deg,
-         ${(props) => props.theme['--violet']} 13%,
+    background:linear-gradient(191deg, white 13%,
      ${(props) => props.theme['--blue-400']} 72%,
       ${(props) => props.theme['--blue-200']} 87%);
      
