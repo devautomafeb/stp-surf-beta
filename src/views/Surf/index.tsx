@@ -46,10 +46,10 @@ export function Surf() {
 
             <Container>
                 <Title>Nossos instrutores</Title>
-                <Teacher name={"Rafael Maia"} nickName={', o João '} dirImg={professor01} />
-                <Teacher name={"Gabriel Vasconcellos"} nickName={', o João '} dirImg={professor02} />
-                <Teacher name={"Lucas Guigues"} nickName={', o João '} dirImg={professor033} />
-                <Teacher name={"João Felipe Amaral"} nickName={', o João '} dirImg={professor04} />
+                <Teacher name={"Rafael Maia"} nickName={''} dirImg={professor01} />
+                <Teacher name={"Gabriel Vasconcellos"} nickName={''} dirImg={professor02} />
+                <Teacher name={"Lucas Guigues"} nickName={''} dirImg={professor033} />
+                <Teacher name={"João Felipe Amaral"} nickName={''} dirImg={professor04} />
             </Container>
 
             <Container>
