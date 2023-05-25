@@ -5,18 +5,19 @@ export const ChooseContainer = styled.div`
     justify-content: center;
     text-align:center;
     align-items: center;
-    padding-bottom:100px;
+    padding-bottom:50px;
     align-items: center;
     margin-top: 20px;
     margin-bottom: 3vh;
     width:60vw;
     height:auto;
-    margim:auto:
+    box-sizing: border-box;
     border: 1px solid ${(props) => props.theme['--gray-800']};
     border-radius: 10px 10px 10px 10px;
     background-position: center;
     background-color:${(props) => props.theme['white']};
-    padding:auto:
+    
+
     @media(max-width:768px){
         min-width:95vw;
 
