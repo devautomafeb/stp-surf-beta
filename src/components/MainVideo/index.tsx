@@ -1,6 +1,6 @@
 import { CardVideo, Logo, Video, Img } from "./styles";
 
-import logo from "../../assets/images/Logo.png";
+import logo from "../../assets/images/Screenshot_20230523_225823_WhatsApp-removebg-preview.png";
 
 interface VideoProps {
     dirVideo: any;
