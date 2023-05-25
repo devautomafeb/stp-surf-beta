@@ -5,7 +5,6 @@ export const ChooseContainer = styled.div`
     justify-content: center;
     text-align:center;
     align-items: center;
-    margin: auto;
     padding-bottom:100px;
     align-items: center;
     margin-top: 20px;
