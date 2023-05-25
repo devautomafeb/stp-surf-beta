@@ -7,7 +7,6 @@ export const ChooseContainer = styled.div`
     align-items: center;
     margin: auto;
     padding-bottom:100px;
-    margin-top: 0;
     align-items: center;
     margin-top: 20px;
     margin-bottom: 3vh;
@@ -17,7 +16,7 @@ export const ChooseContainer = styled.div`
     border-radius: 10px 10px 10px 10px;
     background-position: center;
     background-color:${(props) => props.theme['white']};
-
+    padding:auto:
     @media(max-width:768px){
         width:95%;
 
@@ -47,10 +46,11 @@ export const ChooseButton = styled.button`
     }
 
     @media(max-width:768px){
-        height:100px;
+        height:90px;
         min-height: 50px;
-        width:90%;
-        margin:10px;
+        width:94%;
+margin:auto;
+        margin-top:10px;
 display:flex;
 
 align-items: center;
