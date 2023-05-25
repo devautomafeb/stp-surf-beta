@@ -48,7 +48,7 @@ export const ChooseButton = styled.button`
     @media(max-width:768px){
         height:90px;
         min-height: 50px;
-        width:94%;
+        width:94%vw;
 margin:auto;
         margin-top:10px;
 display:flex;
