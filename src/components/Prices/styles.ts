@@ -34,7 +34,7 @@ export const PricesContainer = styled.div`
      
      @media(max-width:768px){
         background:linear-gradient(191deg,
-         ${(props) => props.theme['--blue-200']} 13%,
+         white 13%,
          ${(props) => props.theme['--blue-400']} 62%,
          ${(props) => props.theme['--violet']} 87%);
         align-items: center;
