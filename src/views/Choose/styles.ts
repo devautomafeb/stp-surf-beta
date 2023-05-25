@@ -18,7 +18,7 @@ export const ChooseContainer = styled.div`
     background-color:${(props) => props.theme['white']};
     padding:auto:
     @media(max-width:768px){
-        width:95%;
+        width:95vw;
 
     }
 `;
@@ -48,8 +48,9 @@ export const ChooseButton = styled.button`
     @media(max-width:768px){
         height:90px;
         min-height: 50px;
-        width:94%vw;
+        
 margin:auto;
+min-width: 90vw;
         margin-top:10px;
 display:flex;
 
