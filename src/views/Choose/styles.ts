@@ -11,13 +11,14 @@ export const ChooseContainer = styled.div`
     margin-bottom: 3vh;
     width:60vw;
     height:auto;
+    margim:auto:
     border: 1px solid ${(props) => props.theme['--gray-800']};
     border-radius: 10px 10px 10px 10px;
     background-position: center;
     background-color:${(props) => props.theme['white']};
     padding:auto:
     @media(max-width:768px){
-        width:95vw;
+        min-width:95vw;
 
     }
 `;
