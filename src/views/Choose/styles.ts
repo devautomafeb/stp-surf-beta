@@ -4,13 +4,13 @@ export const ChooseContainer = styled.div`
     display: block;
     justify-content: center;
     text-align:center;
-    text-align: center;
+    align-items: center;
     margin: auto;
     padding-bottom:100px;
     margin-top: 0;
     align-items: center;
     margin-top: 20px;
-    margin-bottom: 30vh;
+    margin-bottom: 3vh;
     width:60vw;
     height:auto;
     border: 1px solid ${(props) => props.theme['--gray-800']};
@@ -19,7 +19,6 @@ export const ChooseContainer = styled.div`
     background-color:${(props) => props.theme['white']};
 
     @media(max-width:768px){
-        height:100vh;
         width:95%;
 
     }
