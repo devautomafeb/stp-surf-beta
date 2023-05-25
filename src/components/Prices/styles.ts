@@ -56,7 +56,7 @@ export const Img = styled.img`
 export const FontAsH1 = styled.h1`
     font-family: 'Roboto', sans-serif;
     font-style: italic;
-    font-weight: 300;
+    font-weight: 600;
     padding: 5px;
     color: ${(props) => props.theme['--gray-800']};
 `
@@ -64,13 +64,13 @@ export const FontAsH1 = styled.h1`
 export const FontAsH2 = styled.h2`
     font-family: 'Roboto', sans-serif;
     font-style: italic;
-    font-weight: 200;
+    font-weight: 400;
     padding: 5px;
 `
 
 export const FontAsH3 = styled.h3`
     font-family: 'Roboto', sans-serif;
     font-style: italic;
-    font-weight: 100;
+    font-weight: 300;
     padding: 5px;
 `
