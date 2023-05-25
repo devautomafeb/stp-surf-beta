@@ -48,7 +48,7 @@ export const ChooseButton = styled.button`
     }
 
     @media(max-width:768px){
-        height:auto;
+        height:100px;
         min-height: 50px;
         width:90%;
         margin:10px;
