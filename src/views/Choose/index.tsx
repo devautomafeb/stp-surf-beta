@@ -52,6 +52,14 @@ export function Choose() {
                 </ChooseButton>
             </Link>
 
+            <Link to='/beach' style={{ textDecoration: 'none' }}>
+                <ChooseButton>
+                    <Img src={beach4} style={{ color: '#d7d7d7',height:'100px',padding:'20px' }} />
+                    <FontAsH1>Beach Tennis         </FontAsH1>
+                    <Img src={beach4} style={{ color: '#d7d7d7',height:'100px',padding:'20px' }} />
+                </ChooseButton>
+            </Link>
+
             <a href='https://www.instagram.com/arena.stp/' style={{ textDecoration: 'none' }}>
                 <ChooseButton>
                     <FaInstagram size={'4rem'} color={'#d7d7d7'} style={{padding:'20px'}}/>

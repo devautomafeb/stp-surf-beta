@@ -2,22 +2,19 @@
 import styled, { css } from 'styled-components';
 
 export const Title = styled.h1`
-    font-size: 2rem;
-    font-weight: 500;
+ font-size: 2rem;
     padding: 50px;
-    text-indent: 100px;
     color: ${(props) => props.theme['--gray-800']};
-    font-weight: 100;
+    font-weight: 500;
     line-height:40px;
     `
 
 export const FontAsH3 = styled.h3`
-    font-size: 1rem;
-    font-weight: 700;
+   font-size: 1.3rem;
+    font-weight: 400;
     padding: 50px;
     text-indent: 100px;
     color: ${(props) => props.theme['--gray-800']};
-    font-weight: 100;
     line-height:40px;
     `
 export const FontBold = styled.b`

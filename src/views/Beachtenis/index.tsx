@@ -6,7 +6,7 @@ import { MainVideo } from "../../components/MainVideo";
 
 import { FontAsH3, FontBold, Container, Title } from "./styles";
 
-import beach01 from '../../assets/images/beach01.jpg';
+import beach01 from '../../assets/images/beachTennisCover.jpg';
 import beach02 from '../../assets/images/beach02.jpg';
 import video01 from '../../assets/videos/Aulao.mp4';
 import { Teacher } from "../../components/Teacher";
@@ -20,25 +20,24 @@ import { Footer } from "../../components/Footer";
 export function Beachtenis() {
 
     const textA = 
-        <FontAsH3>BEACH TENNIS:O Beach Tennis é a atividade perfeita para
-            quem FontBoldusca <FontBold>um exercício divertido
+        <FontAsH3>BEACH TENNIS: O Beach Tennis é a atividade perfeita para
+            quem busca <FontBold>um exercício divertido
                 e desafiador.</FontBold>
-            E aqui na na Arena STP, oferecemos aulas experimentais para você conhecer
-            melhor o esporte que
-            mais cresce no Brasil.</FontAsH3>
+             E aqui na na Arena STP, oferecemos aulas experimentais para você conhecer
+            melhor o esporte que mais cresce no Brasil.</FontAsH3>
 
     const textB = <FontAsH3>Se você sente a necessidade de se movimentar, mas não aguenta
         mais a rotina da academia,
-        o <FontBold>Beach Tennis é a solução que você procurava</FontBold>. Além de traFontBoldalhar
+        o <FontBold> Beach Tennis é a solução que você procurava </FontBold>. Além de trabalhar
         o corpo todo, melhorar a coordenação e  tonificar os músculos,
-        você ainda pode desfrutar da FontBoldrisa do mar e do visual incrível da praia da Barra da
+        você ainda pode desfrutar da brisa do mar e do visual incrível da praia da Barra da
         Tijuca. <FontBold>Venha se divertir e se exercitar ao mesmo tempo!</FontBold>
     </FontAsH3>
 
     return (
         <div>
             <Header headerVariant='arena' />
-            <Cover variant='beachtennis' />
+            <Cover variant='beach' />
             <TextCard variantText={"toLeft"} textToWrite={textA} dirImg={beach01} />
             <TextCard variantText={"toRight"} textToWrite={textB} dirImg={beach02} />
             <MainVideo dirVideo={video01} />
@@ -49,7 +48,7 @@ export function Beachtenis() {
             </Container>
 
             <Container>
-                <Prices variant={"beachTennis"} />
+                <Prices variant={"beach"} />
             </Container>
 
             <Container>

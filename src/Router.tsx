@@ -16,7 +16,7 @@ export default function Router() {
             <Route path = "/" element={<Choose />} />
                 <Route path = "/surf" element={<Surf />} />
                 <Route path = "/funcional" element={<Funcional />} />
-                <Route path = "/beachtennis" element={<Beachtenis />} />
+                <Route path = "/beach" element={<Beachtenis />} />
                 <Route path = "/yoga" element={<Yoga />} />
                 <Route path = "/muaythai" element={<Muaythai />} />
             </Route>

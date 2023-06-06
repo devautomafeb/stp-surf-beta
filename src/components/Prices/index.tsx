@@ -3,7 +3,7 @@ import { FontAsH1, FontAsH2, FontAsH3, Img, PricesContainer, PricesContainerSupe
 import logo from "../../assets/images/Screenshot_20230523_225823_WhatsApp-removebg-preview.png";
 import { FaMoneyBillWave, FaRegCalendarAlt } from "react-icons/fa";
 import React from "react";
-import { Beachtenis } from "../../views/Beachtenis";
+
 
 interface PricesProps {
     variant?: React.ReactNode;
@@ -66,8 +66,27 @@ function BeachPrices() {
         </PricesContainerSuper>)
 }
 
+function Beach() {
+    return(
+    <PricesContainerSuper>
+        <PricesContainer>
+            <img src={logo} style={{ height: '100px' }} />
+            <FontAsH1><FaRegCalendarAlt />  Horários:</FontAsH1>
+            <FontAsH2>Sexta-Feira:</FontAsH2>
+            <FontAsH3>06:30 às 07:30</FontAsH3>
+        </PricesContainer>
+        <Img src={logo} />
+        <PricesContainer>
+            <img src={logo} style={{ height: '100px' }} />
+            <FontAsH1><FaMoneyBillWave />  Plano:</FontAsH1>
+            <FontAsH3>R$ 180,00/mês </FontAsH3>
+        </PricesContainer>
+    </PricesContainerSuper>)
+}
+
 function Yoga() {
-    return(<PricesContainerSuper>
+    return(
+    <PricesContainerSuper>
         <PricesContainer>
             <img src={logo} style={{ height: '100px' }} />
             <FontAsH1><FaRegCalendarAlt />  Horários:</FontAsH1>
@@ -148,9 +167,9 @@ function handlePrice(variantPrice: React.ReactNode) {
             <Yoga />
         )
     }
-    else if (variantPrice === "beachTennis") {
+    else if (variantPrice === "beach") {
         return (
-            <Beachtenis />
+            <Beach />
         )
     } else {
         return (<div>Não encontrado</div>)

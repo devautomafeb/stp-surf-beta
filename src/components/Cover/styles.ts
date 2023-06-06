@@ -2,12 +2,12 @@ import styled, {css} from 'styled-components';
 
 import imageSurf from '../../assets/images/imagem01.jpg';
 import imageArena from '../../assets/images/ArenaCapa2.jpg';
-import imageBeachTennis from '../../assets/images/beachTennisCover.jpg';
+import imageBeachTennis from '../../assets/images/beach01.jpg';
 import imageMuayThai from '../../assets/images/muay01.jpg';
 import imageYoga from '../../assets/images/yoga02.jpg';
 import imageFuncional from '../../assets/images/ArenaCapa2.jpg';
 
-export type CoverVariant = 'surf' | 'arena'| 'beachtennis'| 'muayThai'| 'yoga'| 'funcional';
+export type CoverVariant = 'surf' | 'arena'| 'beach'| 'muayThai'| 'yoga'| 'funcional';
 
 interface CoverVariantProps{
     variant: CoverVariant;
@@ -16,7 +16,7 @@ interface CoverVariantProps{
 const coverVariants = {
     surf : imageSurf,
     arena: imageArena,
-    beachtennis: imageBeachTennis,
+    beach: imageBeachTennis,
     muayThai: imageMuayThai,
     yoga: imageYoga,
     funcional: imageFuncional
