@@ -43,7 +43,7 @@ export function Yoga() {
             <MainVideo dirVideo={video01} />
 
             <Container>
-                <Title>Nossos instrutores</Title>
+                <Title>Nossa instrutora</Title>
                 <Teacher name={"Rafaela Matos, "} nickName={'a Rafa'} dirImg={professor01} />
 
             </Container>
