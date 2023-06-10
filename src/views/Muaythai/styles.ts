@@ -37,3 +37,15 @@ border-radius: 10px 10px 10px 10px;
 background-position: center;
 box-shadow: 0 0 20px ${(props) => props.theme['--gray-800']};
 margin-bottom: 20px;`
+
+export const Container2 = styled.div`
+display: block;
+background-color: ${(props) => props.theme['white']};
+justify-content: center;
+text-align: center;
+margin: auto;
+
+align-items: center;
+margin-top: 5%;
+width:90vw;
+border-radius: 10px 10px 10px 10px;`

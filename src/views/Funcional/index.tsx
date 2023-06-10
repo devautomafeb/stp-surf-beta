@@ -4,7 +4,7 @@ import { Header } from '../../components/Header';
 import { TextCard } from "../../components/TextCard";
 import { MainVideo } from "../../components/MainVideo";
 
-import { FontAsH3, FontBold, Container, Title } from "./styles";
+import { FontAsH3, FontBold, Container, Title, Container2 } from "./styles";
 
 import func01 from '../../assets/images/func01.jpg';
 import func02 from '../../assets/images/func5.png';
@@ -43,10 +43,10 @@ export function Funcional() {
             <TextCard variantText={"toRight"} textToWrite={textB} dirImg={func02} />
             <MainVideo dirVideo={video01} />
 
-            <Container>
+            <Container2>
                 <Title>Nosso instrutor</Title>
                 <Teacher name={"Meicke Reichert,"} nickName={' o Mykinho'} dirImg={professor02} />
-            </Container>
+            </Container2>
 
             <Container>
                 <Prices variant={"funcional"} />

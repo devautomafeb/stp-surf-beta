@@ -4,7 +4,7 @@ import { Header } from '../../components/Header';
 import { TextCard } from "../../components/TextCard";
 import { MainVideo } from "../../components/MainVideo";
 
-import { FontAsH3, FontBold, Container, Title } from "./styles";
+import { FontAsH3, FontBold, Container, Title, Container2 } from "./styles";
 
 import muay02 from '../../assets/images/muayThaiCover.jpg';
 import muay01 from '../../assets/images/senhora.jpg';
@@ -39,11 +39,11 @@ export function Muaythai() {
             <TextCard variantText={"toRight"} textToWrite={textB} dirImg={muay02} />
             <MainVideo dirVideo={video01} />
 
-            <Container>
-                <Title>Nossos instrutores</Title>
+            <Container2>
+                <Title>Nosso instrutor</Title>
                 <Teacher name={"Rafael Gonçalves, "} nickName={" o Tchetcha"} dirImg={professor01} />
 
-            </Container>
+            </Container2>
 
             <Container>
                 <Prices variant={"muayThai"} />

@@ -1,6 +1,8 @@
 import { FontAsH1, FontAsH2, FontAsH3, Img, PricesContainer, PricesContainerSuper } from "./styles";
 
-import logo from "../../assets/images/Screenshot_20230523_225823_WhatsApp-removebg-preview.png";
+
+import logoSurf from '../../assets/images/Logo.png';
+import logoArena from '../../assets/images/arenaLogo01.png';
 import { FaMoneyBillWave, FaRegCalendarAlt } from "react-icons/fa";
 import React from "react";
 
@@ -14,7 +16,7 @@ function SurfPrices() {
         <PricesContainerSuper>
 
             <PricesContainer>
-                <img src={logo} style={{ height: '100px' }} />
+                <img src={logoSurf} style={{ height: '100px' }} />
                 <FontAsH1><FaRegCalendarAlt />  Horários:</FontAsH1>
                 <FontAsH2>Segundas à Sexta:</FontAsH2>
                 <FontAsH3>6:30 às 07:30</FontAsH3>
@@ -22,9 +24,9 @@ function SurfPrices() {
                 <FontAsH3>7:00 às 08:00</FontAsH3>
                 <FontAsH3>8:00 às 09:00</FontAsH3>
             </PricesContainer>
-            <Img src={logo} />
+            <Img src={logoSurf} />
             <PricesContainer>
-                <img src={logo} style={{ height: '100px' }} />
+                <img src={logoSurf} style={{ height: '100px' }} />
                 <FontAsH1><FaMoneyBillWave />  Planos:</FontAsH1>
                 <FontAsH2>2X na semana: </FontAsH2>
                 <FontAsH3>R$ 350,00/mês </FontAsH3>
@@ -43,7 +45,7 @@ function Beach() {
     return(
     <PricesContainerSuper>
         <PricesContainer>
-            <img src={logo} style={{ height: '100px' }} />
+            <img src={logoArena} style={{ height: '100px' }} />
             <FontAsH1><FaRegCalendarAlt />  Horários:</FontAsH1>
             <FontAsH2>Segunda, Quarta e Sexta-Feira:</FontAsH2>
             <FontAsH3>06:30 às 07:30</FontAsH3>
@@ -51,9 +53,9 @@ function Beach() {
             <FontAsH2>Terça e Quinta:</FontAsH2>
             <FontAsH3>18:30 às 19:30</FontAsH3>
         </PricesContainer>
-        <Img src={logo} />
+        <Img src={logoArena} />
         <PricesContainer>
-            <img src={logo} style={{ height: '100px' }} />
+            <img src={logoArena} style={{ height: '100px' }} />
             <FontAsH1><FaMoneyBillWave />  Planos: </FontAsH1>
             <FontAsH2>2X na semana: </FontAsH2>
             <FontAsH3>R$ 350,00/mês </FontAsH3>
@@ -65,14 +67,14 @@ function Yoga() {
     return(
     <PricesContainerSuper>
         <PricesContainer>
-            <img src={logo} style={{ height: '100px' }} />
+            <img src={logoArena} style={{ height: '100px' }} />
             <FontAsH1><FaRegCalendarAlt />  Horários:</FontAsH1>
             <FontAsH2>Sexta-Feira:</FontAsH2>
             <FontAsH3>06:30 às 07:30</FontAsH3>
         </PricesContainer>
-        <Img src={logo} />
+        <Img src={logoArena} />
         <PricesContainer>
-            <img src={logo} style={{ height: '100px' }} />
+            <img src={logoArena} style={{ height: '100px' }} />
             <FontAsH1><FaMoneyBillWave />  Plano:</FontAsH1>
             <FontAsH3>R$ 180,00/mês </FontAsH3>
         </PricesContainer>
@@ -82,16 +84,16 @@ function Yoga() {
 function Funcional() {
     return(<PricesContainerSuper>
         <PricesContainer>
-            <img src={logo} style={{ height: '100px' }} />
+            <img src={logoArena} style={{ height: '100px' }} />
             <FontAsH1><FaRegCalendarAlt />  Horários:</FontAsH1>
             <FontAsH2>Segunda à Quinta:</FontAsH2>
             <FontAsH3>07:00 às 08:00</FontAsH3>
             <FontAsH2>Sábado:</FontAsH2>
             <FontAsH3>07:30 às 08:30</FontAsH3>
         </PricesContainer>
-        <Img src={logo} />
+        <Img src={logoArena} />
         <PricesContainer>
-            <img src={logo} style={{ height: '100px' }} />
+            <img src={logoArena} style={{ height: '100px' }} />
             <FontAsH1><FaMoneyBillWave />  Planos:</FontAsH1>
             <FontAsH2>2X na semana: </FontAsH2>
             <FontAsH3>R$ 220,00/mês </FontAsH3>
@@ -104,16 +106,16 @@ function Funcional() {
 function MuayThai() {
     return(<PricesContainerSuper>
         <PricesContainer>
-            <img src={logo} style={{ height: '100px' }} />
+            <img src={logoArena} style={{ height: '100px' }} />
             <FontAsH1><FaRegCalendarAlt />  Horários:</FontAsH1>
             <FontAsH2>Terça e Quinta:</FontAsH2>
             <FontAsH3>18:30 às 19:30</FontAsH3>
             <FontAsH2>Quarta e Sexta:</FontAsH2>
             <FontAsH3>08:00 às 09:00</FontAsH3>
         </PricesContainer>
-        <Img src={logo} />
+        <Img src={logoArena} />
         <PricesContainer>
-            <img src={logo} style={{ height: '100px' }} />
+            <img src={logoArena} style={{ height: '100px' }} />
             <FontAsH1><FaMoneyBillWave />  Planos:</FontAsH1>
             <FontAsH2>2X na semana: </FontAsH2>
             <FontAsH3>R$ 220,00/mês </FontAsH3>
