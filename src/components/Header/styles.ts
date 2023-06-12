@@ -17,7 +17,7 @@ const headerVariants = {
 export const HeaderContainer = styled.div`
     display: flex;
     background-color: white;
-    height: 16vh;
+    height: 18vh;
     min-height: 90px;
     width: auto;
     border-bottom: 2px solid ${(props) => props.theme['--blue-600']};
