@@ -66,7 +66,7 @@ export const HeaderList = styled.li`
     font-size: 1.5rem;
 `
 export const HeaderImg = styled.div<HeaderVariantProps>`
-    height: 90px;
+    height: 100px;
     width: 20vw;
     margin-top: 10px;
     background-image:url(${(props) => headerVariants[props.headerVariant]});
