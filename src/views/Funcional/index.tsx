@@ -13,7 +13,7 @@ import { Teacher } from "../../components/Teacher";
 
 
 import professor02 from '../../assets/images/prof02.jpg';
-import professor033 from '../../assets/images/prof03.jpg';
+import professor033 from '../../assets/images/TUI_SITE.jpg';
 
 import { Prices } from "../../components/Prices";
 import { MapView } from "../../components/MapView";
@@ -27,8 +27,6 @@ export function Funcional() {
             promovendo <FontBold>flexibilidade</FontBold>, <FontBold>coordenação motora</FontBold>, <FontBold>equilíbrio</FontBold>,
             <FontBold> condicionamento físico</FontBold>, <FontBold>tônus muscular</FontBold> e ainda auxilia no
             <FontBold> emagrecimento</FontBold> devido ao gasto energético.</FontAsH3>
-
-
 
     const textB =<FontAsH3>O treino é adaptado para <FontBold>todas as idades</FontBold>,
         níveis e condições físicas.
@@ -44,8 +42,9 @@ export function Funcional() {
             <MainVideo dirVideo={video01} kind={'arena'} />
 
             <Container2>
-                <Title>Nosso instrutor</Title>
+                <Title>Nossos instrutores</Title>
                 <Teacher name={"Meicke Reichert,"} nickName={' o Mykinho'} dirImg={professor02} />
+                <Teacher name={"Arthur Lemes,"} nickName={'o Tui'} dirImg={professor033} />
             </Container2>
 
             <Container>

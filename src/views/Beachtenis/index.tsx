@@ -12,7 +12,7 @@ import video01 from '../../assets/videos/VIDEO_BT.mp4';
 import { Teacher } from "../../components/Teacher";
 
 import professor01 from '../../assets/images/Romarinho.jpg';
-import professor02 from '../../assets/images/TUI_SITE.jpg';
+import professor02 from '../../assets/images/beach11.jpg';
 
 import { Prices } from "../../components/Prices";
 import { MapView } from "../../components/MapView";
