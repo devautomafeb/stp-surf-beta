@@ -16,6 +16,7 @@ import professor01 from '../../assets/images/muayProf.jpg';
 import { Prices } from "../../components/Prices";
 import { MapView } from "../../components/MapView";
 import { Footer } from "../../components/Footer";
+import WhatsButton from "../../components/WhatsButton";
 
 export function Muaythai() {
 
@@ -52,6 +53,7 @@ export function Muaythai() {
             <Container>
                 <MapView variantImage={"arena"} />
             </Container>
+            <WhatsButton />
             <Footer FooterVariant={"arena"} />
 
         </div >

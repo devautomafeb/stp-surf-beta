@@ -17,6 +17,7 @@ import professor02 from '../../assets/images/beach11.jpg';
 import { Prices } from "../../components/Prices";
 import { MapView } from "../../components/MapView";
 import { Footer } from "../../components/Footer";
+import WhatsButton from "../../components/WhatsButton";
 
 export function Beachtenis() {
 
@@ -56,6 +57,7 @@ export function Beachtenis() {
             <Container>
                 <MapView variantImage={"arena"} />
             </Container>
+            <WhatsButton />
             <Footer FooterVariant={"arena"} />
 
         </div >

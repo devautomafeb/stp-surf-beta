@@ -16,6 +16,7 @@ import professor01 from '../../assets/images/RAFA.jpg';
 import { Prices } from "../../components/Prices";
 import { MapView } from "../../components/MapView";
 import { Footer } from "../../components/Footer";
+import WhatsButton from "../../components/WhatsButton";
 
 export function Yoga() {
 
@@ -55,6 +56,7 @@ export function Yoga() {
             <Container>
                 <MapView variantImage={"arena"}/>
             </Container>
+            <WhatsButton />
             <Footer FooterVariant={"arena"} />
 
         </div >

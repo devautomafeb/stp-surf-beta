@@ -20,12 +20,11 @@ export const ChooseContainer = styled.div<FotoIniVariantProps>`
     justify-content: center;
     text-align:center;
     align-items: center;
-    
     padding-bottom:20px;
     align-items: center;
     margin:auto;
     box-sizing: border-box;
-
+    
     
     @media(max-width:768px){
         min-width:95vw;

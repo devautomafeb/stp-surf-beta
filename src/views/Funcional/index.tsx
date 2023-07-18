@@ -18,6 +18,7 @@ import professor033 from '../../assets/images/TUI_SITE.jpg';
 import { Prices } from "../../components/Prices";
 import { MapView } from "../../components/MapView";
 import { Footer } from "../../components/Footer";
+import WhatsButton from "../../components/WhatsButton";
 
 export function Funcional() {
 
@@ -54,6 +55,7 @@ export function Funcional() {
             <Container>
                 <MapView variantImage={"arena"} />
             </Container>
+            <WhatsButton />
             <Footer FooterVariant={"arena"} />
 
         </div >
