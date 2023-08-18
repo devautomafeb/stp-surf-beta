@@ -6,8 +6,8 @@ import { MainVideo } from "../../components/MainVideo";
 
 import { FontAsH3, FontBold, Container, Title } from "./styles";
 
-import voley01 from '../../assets/images/capa01.jpg';
-import voley02 from '../../assets/images/aula.jpg';
+import voley01 from '../../assets/images/volei_capa01.jpg';
+import voley02 from '../../assets/images/volei_aula.jpg';
 import video01 from '../../assets/videos/SITE_VOLEI.mp4';
 import { Teacher } from "../../components/Teacher";
 
