@@ -38,7 +38,7 @@ export function Voley() {
             <MainVideo dirVideo={video01} kind={'arena'} />
 
             <Container>
-                <Title>Nossa instrutora</Title>
+                <Title>Nosso instrutor</Title>
                 <Teacher name={"Thiago Barbosa"} dirImg={professor01} />
 
             </Container>
